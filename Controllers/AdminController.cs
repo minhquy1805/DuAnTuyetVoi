@@ -21,7 +21,7 @@ namespace DuAnTuyetVoiPart1.Controllers
         {
             getBook(model);
             List<Book> books = getAll();
-            return View(new Book());
+            return View(books);
 
         }
 
